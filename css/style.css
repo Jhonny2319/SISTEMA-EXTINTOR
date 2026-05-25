@@ -1,0 +1,187 @@
+body{
+    font-family: Arial, sans-serif;
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+/* TITULOS */
+
+h1, h2{
+    color: white;
+    margin-bottom: 20px;
+}
+
+/* MENU */
+
+.menu{
+    margin-bottom: 25px;
+}
+
+.menu a{
+    background: #007bff;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    background: #0056b3;
+}
+
+/* FORMULARIO */
+
+form{
+    width: 450px;
+    background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(8px);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+/* LABELS */
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* INPUTS */
+
+input,
+select{
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+
+    background: white !important;
+    color: black !important;
+}
+input::placeholder{
+    color: #666 !important;
+}
+
+select{
+    color: black !important;
+}
+
+/* PLACEHOLDER */
+
+input::placeholder{
+    color: #777;
+}
+
+/* BOTAO */
+
+button{
+    width: 100%;
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover{
+    background: #0056b3;
+}
+
+/* TABELAS */
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 25px;
+    background: rgba(0,0,0,0.75);
+    backdrop-filter: blur(8px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th{
+    background: #007bff;
+    color: white;
+    padding: 12px;
+}
+
+td{
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    color: white;
+    text-align: center;
+}
+
+tr:hover{
+    background: rgba(255,255,255,0.08);
+}
+
+/* LINKS */
+
+a{
+    color: #4da6ff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    color: #80c1ff;
+}
+
+/* CONTAINER */
+
+.container{
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+.lista-clientes{
+    flex: 1;
+}
+input,
+select,
+option,
+textarea{
+    color: black !important;
+    background: white !important;
+}
+input[type="text"],
+input[type="date"]{
+    -webkit-text-fill-color: black !important;
+}
+.campo{
+    background: white !important;
+    color: black !important;
+    -webkit-text-fill-color: black !important;
+}
+.detalhes-box{
+    width: 500px;
+    background: rgba(255,255,255,0.95);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.3);
+}
+
+.detalhes-box p{
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: black;
+}
